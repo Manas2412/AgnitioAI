@@ -1,0 +1,597 @@
+.macbookPro141Child,
+.macbookPro141Item {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  left: 0;
+  flex-shrink: 0;
+}
+.macbookPro141Child {
+  height: 843px;
+  bottom: 229px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.macbookPro141Item {
+  height: 701px;
+  bottom: 1806px;
+}
+.frameChild,
+.macbookPro141Inner,
+.macbookPro141Item {
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.macbookPro141Inner {
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  margin: 0 !important;
+  top: 2073px;
+  right: 0;
+  left: 0;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameChild {
+  height: 504px;
+  flex: 1;
+  position: relative;
+  z-index: 3;
+}
+.frameItem {
+  height: 617px;
+  width: 331px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -123px;
+  left: 81px;
+  object-fit: cover;
+  z-index: 4;
+}
+.rectangleIcon,
+.rectangleParent {
+  position: absolute;
+  margin: 0 !important;
+  left: 0;
+  max-width: 100%;
+}
+.rectangleParent {
+  width: 1512px;
+  top: 1287px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleIcon {
+  width: 100%;
+  height: 747px;
+  right: 0;
+  bottom: 1069px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 2;
+}
+.frameInner {
+  height: 116px;
+  width: 1512px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  display: none;
+  max-width: 100%;
+}
+.frameChild1 {
+  height: 97px;
+  width: 250px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.frameSection,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleGroup {
+  flex: 1;
+  background-color: var(--color-darkslategray);
+  padding: 10px 30px 9px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.frameSection {
+  align-self: stretch;
+  padding: 0 0 79px;
+}
+.frameChild2 {
+  height: 719px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 5;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkolivegreen);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 433px;
+  left: 206px;
+  border-radius: 50%;
+  background-color: var(--color-khaki);
+  width: 120px;
+  height: 120px;
+  z-index: 8;
+}
+.frameDiv {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 173px;
+  background-color: var(--color-darkolivegreen);
+  width: 537px;
+  z-index: 7;
+}
+.frameChild3 {
+  position: absolute;
+  top: 127px;
+  left: 0;
+  width: 442px;
+  height: 243px;
+  object-fit: cover;
+  z-index: 8;
+}
+.frameParent {
+  height: calc(100% - 2px);
+  width: 710px;
+  top: 2px;
+  right: 0;
+  bottom: 0;
+}
+.frameParent,
+.icon,
+.rectangleContainer {
+  position: absolute;
+  margin: 0 !important;
+}
+.rectangleContainer {
+  width: 1512px;
+  top: 578px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.icon {
+  width: 1515px;
+  height: 462px;
+  top: 118px;
+  right: -3px;
+  object-fit: cover;
+  z-index: 6;
+}
+.groupIcon,
+.whatWeBelieve {
+  align-self: stretch;
+  position: relative;
+  flex-shrink: 0;
+}
+.whatWeBelieve {
+  margin: 0;
+  height: 114px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 4;
+}
+.groupIcon {
+  height: 7px;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 5;
+}
+.train1mStudents {
+  position: relative;
+  font-weight: 600;
+  z-index: 5;
+}
+.frameParent1,
+.train1mStudentsInAiBy202Wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.train1mStudentsInAiBy202Wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-2xl) 0 var(--padding-lgi);
+}
+.frameParent1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.frameContainer {
+  width: 572px;
+  flex-direction: row;
+  padding: 0 var(--padding-23xl);
+  box-sizing: border-box;
+  margin-top: -33px;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+}
+.frameContainer,
+.frameWrapper,
+.whatWeBelieveParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.whatWeBelieveParent {
+  flex: 1;
+  flex-direction: column;
+}
+.frameWrapper {
+  width: 627px;
+  flex-direction: row;
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+.ourVisionFor,
+.vision {
+  position: relative;
+  display: inline-block;
+  z-index: 4;
+}
+.vision {
+  width: 137px;
+  font-weight: 600;
+}
+.ourVisionFor {
+  align-self: stretch;
+  height: 145px;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  white-space: pre-wrap;
+  flex-shrink: 0;
+}
+.visionContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-17xl);
+}
+.beliefsAndVisionContainer,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 933px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 41px;
+}
+.beliefsAndVisionContainer {
+  width: 1107px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-40xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkgreen);
+  font-family: var(--font-crimson-text);
+}
+.buttonsChild {
+  width: 1512px;
+  height: 287px;
+  position: relative;
+  background-color: var(--color-darkolivegreen);
+  display: none;
+  max-width: 100%;
+}
+.mission,
+.trainAndEmpower {
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+}
+.mission {
+  width: 178px;
+  font-weight: 600;
+}
+.trainAndEmpower {
+  width: 933px;
+  height: 145px;
+  font-size: var(--font-size-9xl);
+  white-space: pre-wrap;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.buttons {
+  align-self: stretch;
+  background-color: var(--color-darkolivegreen);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-26xl) var(--padding-xl) var(--padding-26xl) 492px;
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-crimson-text);
+}
+.programDetails1 {
+  white-space: pre-wrap;
+}
+.programDetails {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.curriculumDesignTailored,
+.deliveryMethodBlended,
+.duration20Hours,
+.targetAudienceSc {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+  white-space: pre-wrap;
+}
+.blankLine1 {
+  white-space: pre-wrap;
+}
+.blankLine {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.blankLine,
+.programComponents1 {
+  white-space: pre-wrap;
+}
+.foundationalCoursesIntroduc,
+.programComponents {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.specializedTracksAdvanced {
+  white-space: pre-wrap;
+}
+.specializedTracksAdvanced,
+.workshopsAndProjects {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.certificationAccreditedCert {
+  margin: 0;
+}
+.programDetails1Container {
+  width: 1335px;
+  height: 474px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  z-index: 3;
+}
+.programsAndDetailsContainer {
+  width: 1451px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-59xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: 32.5px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+  font-family: var(--font-crimson-text);
+}
+.programsDelivered {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.frameChild4 {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+  width: 608px;
+  height: 7px;
+  z-index: 2;
+}
+.programsDeliveredParent {
+  height: 114px;
+  width: 717px;
+  position: relative;
+  max-width: 100%;
+}
+.deliveredProgramsContainer {
+  width: 1433px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkgreen);
+  font-family: var(--font-crimson-text);
+}
+.frameChild5 {
+  height: 229px;
+  width: 1512px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.footerFromThe {
+  position: relative;
+  font-weight: 600;
+  z-index: 4;
+}
+.macbookPro141,
+.rectangleParent1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.rectangleParent1 {
+  align-self: stretch;
+  background-color: var(--color-gainsboro);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-40xl) 313px;
+  box-sizing: border-box;
+  min-height: 229px;
+  max-width: 100%;
+  z-index: 3;
+  text-align: left;
+  font-size: 58.5px;
+  color: var(--color-black);
+  font-family: var(--font-crimson-text);
+}
+.macbookPro141 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .buttons {
+    padding-left: 246px;
+    box-sizing: border-box;
+  }
+  .programsAndDetailsContainer {
+    padding-bottom: 51px;
+    box-sizing: border-box;
+  }
+  .rectangleParent1 {
+    padding-left: var(--padding-137xl);
+    padding-right: var(--padding-137xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .whatWeBelieve {
+    font-size: var(--font-size-32xl);
+  }
+  .frameContainer {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .vision {
+    font-size: var(--font-size-10xl);
+  }
+  .frameGroup {
+    gap: var(--gap-xl);
+  }
+  .mission {
+    font-size: var(--font-size-10xl);
+  }
+  .buttons {
+    padding-left: 123px;
+    box-sizing: border-box;
+  }
+  .programsAndDetailsContainer {
+    gap: var(--gap-base);
+    padding-bottom: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .programsDelivered {
+    font-size: var(--font-size-32xl);
+  }
+  .footerFromThe {
+    font-size: 47px;
+  }
+  .rectangleParent1 {
+    padding-left: var(--padding-59xl);
+    padding-right: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatWeBelieve {
+    font-size: var(--font-size-19xl);
+  }
+  .ourVisionFor,
+  .train1mStudents,
+  .vision {
+    font-size: var(--font-size-3xl);
+  }
+  .beliefsAndVisionContainer {
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+  .mission,
+  .trainAndEmpower {
+    font-size: var(--font-size-3xl);
+  }
+  .buttons {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .programDetails1Container {
+    font-size: var(--font-size-2xl);
+  }
+  .programsDelivered {
+    font-size: var(--font-size-19xl);
+  }
+  .footerFromThe {
+    font-size: 35px;
+  }
+  .rectangleParent1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

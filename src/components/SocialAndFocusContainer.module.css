@@ -1,0 +1,175 @@
+.buttonsChild {
+  align-self: stretch;
+  height: 695px;
+  position: relative;
+  background-color: var(--color-darkolivegreen);
+  display: none;
+}
+.socialIcons {
+  height: 81px;
+  width: 85px;
+  position: relative;
+  z-index: 3;
+}
+.socialIconsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-25xl);
+}
+.buttonsItem {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 3;
+}
+.buttons {
+  height: 695px;
+  width: 492px;
+  background-color: var(--color-darkolivegreen);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-66xl) 0 var(--padding-101xl);
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  min-width: 492px;
+  max-width: 100%;
+  z-index: 2;
+}
+.educationalEmpowerment {
+  font-family: var(--font-crimson-text);
+}
+.provideStemAnd {
+  white-space: pre-wrap;
+}
+.blankLine,
+.educationalEmpowermentProvi {
+  margin: 0;
+}
+.inclusivity {
+  font-family: var(--font-crimson-text);
+}
+.ensureAccessibilityTo {
+  white-space: pre-wrap;
+}
+.blankLine1,
+.inclusivityEnsureAccessibil {
+  margin: 0;
+}
+.collaborativePartnership {
+  font-family: var(--font-crimson-text);
+}
+.forgeALasting {
+  white-space: pre-wrap;
+}
+.blankLine2,
+.collaborativePartnershipFor {
+  margin: 0;
+}
+.span {
+  white-space: pre-wrap;
+}
+.capacityBuildingOf {
+  font-family: var(--font-crimson-text);
+}
+.preparingAndSupporting {
+  white-space: pre-wrap;
+}
+.capacityBuildingOfTeachers {
+  margin: 0;
+}
+.educationalEmpowermentProviContainer {
+  width: 892px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-left: var(--padding-xl);
+  z-index: 2;
+}
+.educationalEmpowermentProviWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+}
+.focusAndTechnologies,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.focusAndTechnologies {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xl);
+  box-sizing: border-box;
+  min-width: 621px;
+}
+.buttonsParent,
+.socialAndFocusContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.buttonsParent {
+  width: 1491px;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+}
+.socialAndFocusContainer {
+  align-self: stretch;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkgreen);
+  font-family: var(--font-crimson-text);
+}
+@media screen and (max-width: 1225px) {
+  .buttons {
+    flex: 1;
+  }
+  .buttonsParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .buttons {
+    padding-top: var(--padding-36xl);
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-xl);
+  }
+  .focusAndTechnologies {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .educationalEmpowermentProviContainer {
+    font-size: var(--font-size-2xl);
+  }
+}

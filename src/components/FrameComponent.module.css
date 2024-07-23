@@ -1,0 +1,319 @@
+.imageIcon,
+.imageIcon1 {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.imageIcon {
+  align-self: stretch;
+  height: 176px;
+  flex-shrink: 0;
+}
+.imageIcon1 {
+  height: 254px;
+  flex: 1;
+}
+.imageWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-46xl) 0 var(--padding-47xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.container,
+.imageParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.imageParent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-83xl);
+}
+.container {
+  width: 482px;
+  align-items: flex-start;
+  padding: var(--padding-46xl) 0 0;
+  box-sizing: border-box;
+  min-width: 482px;
+}
+.frameChild {
+  height: 695px;
+  width: 995px;
+  position: relative;
+  background-color: var(--color-darkolivegreen);
+  display: none;
+  max-width: 100%;
+}
+.icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-khaki);
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.iconLabels {
+  position: absolute;
+  width: calc(100% - 22px);
+  top: 20px;
+  left: 11px;
+  font-weight: 600;
+  display: inline-block;
+  height: 60.1px;
+  z-index: 4;
+}
+.iconsParent {
+  align-self: stretch;
+  height: 100px;
+  position: relative;
+}
+.div,
+.frameItem {
+  position: absolute;
+}
+.frameItem {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-khaki);
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.div {
+  width: calc(100% - 22px);
+  top: 20px;
+  left: 11px;
+  font-weight: 600;
+  display: inline-block;
+  height: 60.1px;
+  z-index: 4;
+}
+.ellipseParent {
+  align-self: stretch;
+  height: 100px;
+  position: relative;
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-khaki);
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.div1 {
+  position: absolute;
+  width: calc(100% - 22px);
+  top: 20px;
+  left: 11px;
+  font-weight: 600;
+  display: inline-block;
+  height: 60.1px;
+  z-index: 4;
+}
+.ellipseGroup {
+  align-self: stretch;
+  height: 100px;
+  position: relative;
+}
+.impactIcons {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-78xl-5);
+}
+.navjyotiFoundation {
+  width: 425px;
+  line-height: 46px;
+  max-width: 100%;
+}
+.impactedMoreThan,
+.navjyotiFoundation,
+.smileFoundation {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 3;
+}
+.impactedMoreThan {
+  align-self: stretch;
+  height: 86px;
+  font-size: var(--font-size-xl);
+  white-space: pre-wrap;
+  flex-shrink: 0;
+}
+.smileFoundation {
+  width: 369px;
+  line-height: 46px;
+  max-width: 100%;
+}
+.skilledMoreThan {
+  align-self: stretch;
+  height: 86px;
+  font-size: var(--font-size-xl);
+  white-space: pre-wrap;
+  flex-shrink: 0;
+}
+.hoursOfTraining,
+.impactedDisadvantageCommunit,
+.skilledMoreThan {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 3;
+}
+.hoursOfTraining {
+  width: 474px;
+  line-height: 46px;
+  max-width: 100%;
+}
+.impactedDisadvantageCommunit {
+  align-self: stretch;
+  height: 86px;
+  font-size: var(--font-size-xl);
+  white-space: pre-wrap;
+  flex-shrink: 0;
+}
+.navjyotiFoundationParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+  max-width: 100%;
+}
+.containerParent,
+.impactDetails,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.impactDetails {
+  width: 675px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+  text-align: left;
+  color: var(--color-white);
+}
+.containerParent,
+.rectangleParent {
+  flex-direction: row;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--color-darkolivegreen);
+  justify-content: flex-start;
+  padding: var(--padding-46xl) var(--padding-44xl) var(--padding-30xl);
+  gap: var(--gap-35xl);
+  min-width: 647px;
+  z-index: 2;
+}
+.containerParent {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-mini);
+  text-align: center;
+  font-size: var(--font-size-27xl);
+  color: var(--color-black);
+  font-family: var(--font-crimson-text);
+}
+@media screen and (max-width: 1225px) {
+  .container {
+    flex: 1;
+  }
+  .containerParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .imageWrapper {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .imageParent {
+    gap: var(--gap-32xl);
+  }
+  .container {
+    padding-top: var(--padding-23xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .div,
+  .div1,
+  .iconLabels {
+    font-size: var(--font-size-18xl);
+  }
+  .hoursOfTraining,
+  .navjyotiFoundation,
+  .smileFoundation {
+    font-size: var(--font-size-18xl);
+    line-height: 37px;
+  }
+  .navjyotiFoundationParent {
+    gap: var(--gap-base);
+  }
+  .rectangleParent {
+    gap: var(--gap-8xl);
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div,
+  .div1,
+  .iconLabels,
+  .navjyotiFoundation {
+    font-size: var(--font-size-9xl);
+  }
+  .navjyotiFoundation {
+    line-height: 28px;
+  }
+  .impactedMoreThan {
+    font-size: var(--font-size-base);
+  }
+  .smileFoundation {
+    font-size: var(--font-size-9xl);
+    line-height: 28px;
+  }
+  .skilledMoreThan {
+    font-size: var(--font-size-base);
+  }
+  .hoursOfTraining {
+    font-size: var(--font-size-9xl);
+    line-height: 28px;
+  }
+  .impactedDisadvantageCommunit {
+    font-size: var(--font-size-base);
+  }
+}

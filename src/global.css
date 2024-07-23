@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-crimson-text: "Crimson Text";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-27xl: 46px;
+  --font-size-9xl: 28px;
+  --font-size-18xl: 37px;
+  --font-size-45xl: 64px;
+  --font-size-19xl: 38px;
+  --font-size-32xl: 51px;
+  --font-size-7xl: 26px;
+  --font-size-2xl: 21px;
+  --font-size-3xl: 22px;
+  --font-size-17xl: 36px;
+  --font-size-10xl: 29px;
+  --font-size-19xl-9: 38.9px;
+  --font-size-4xl: 23px;
+  --font-size-12xl: 31px;
+  --font-size-56xl-1: 75.1px;
+  --font-size-26xl: 45px;
+  --font-size-41xl: 60px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gainsboro: #d9d9d9;
+  --color-black: #000;
+  --color-darkolivegreen: #1b3e18;
+  --color-khaki: #dbd557;
+  --color-darkgreen: #276321;
+  --color-darkslategray: #283027;
+
+  /* Gaps */
+  --gap-mini: 15px;
+  --gap-35xl: 54px;
+  --gap-8xl: 27px;
+  --gap-14xl: 33px;
+  --gap-base: 16px;
+  --gap-78xl-5: 97.5px;
+  --gap-83xl: 102px;
+  --gap-32xl: 51px;
+  --gap-2xl: 21px;
+  --gap-11xs: 2px;
+  --gap-21xl: 40px;
+  --gap-xl: 20px;
+  --gap-15xl: 34px;
+  --gap-mid: 17px;
+  --gap-5xl: 24px;
+  --gap-smi: 13px;
+  --gap-8xs: 5px;
+  --gap-lg: 18px;
+  --gap-2xs: 11px;
+  --gap-59xl: 78px;
+  --gap-20xl: 39px;
+  --gap-mid-1: 17.1px;
+
+  /* Paddings */
+  --padding-40xl: 59px;
+  --padding-xl: 20px;
+  --padding-59xl: 78px;
+  --padding-137xl: 156px;
+  --padding-46xl: 65px;
+  --padding-44xl: 63px;
+  --padding-30xl: 49px;
+  --padding-23xl: 42px;
+  --padding-13xl: 32px;
+  --padding-12xl: 31px;
+  --padding-47xl: 66px;
+  --padding-14xl: 33px;
+  --padding-58xl: 77px;
+  --padding-19xl: 38px;
+  --padding-36xl: 55px;
+  --padding-8xl: 27px;
+  --padding-16xl: 35px;
+  --padding-7xl: 26px;
+  --padding-4xl: 23px;
+  --padding-66xl: 85px;
+  --padding-101xl: 120px;
+  --padding-25xl: 44px;
+  --padding-26xl: 45px;
+  --padding-2xl: 21px;
+  --padding-lgi: 19px;
+  --padding-271xl: 290px;
+  --padding-100xl: 119px;
+  --padding-31xl: 50px;
+  --padding-53xl: 72px;
+  --padding-126xl: 145px;
+  --padding-45xl: 64px;
+  --padding-71xl: 90px;
+  --padding-39xl: 58px;
+  --padding-6xs: 7px;
+}

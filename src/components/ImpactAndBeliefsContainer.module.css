@@ -1,0 +1,332 @@
+.ourImpact {
+  margin: 0;
+  height: 114px;
+  width: 591px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 9;
+}
+.ourImpactWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.frameChild {
+  height: 7px;
+  width: 179px;
+  position: relative;
+  z-index: 10;
+}
+.overviewStatsContainerInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-lgi);
+}
+.overview {
+  width: 222px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 6;
+}
+.frameItem,
+.l {
+  position: absolute;
+}
+.frameItem {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-khaki);
+  width: 100%;
+  height: 100%;
+  z-index: 6;
+}
+.l {
+  width: calc(100% - 22px);
+  top: 20px;
+  left: 11px;
+  font-weight: 600;
+  display: inline-block;
+  height: 60.1px;
+  min-width: 78px;
+  z-index: 7;
+}
+.ellipseParent {
+  align-self: stretch;
+  height: 100px;
+  position: relative;
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-khaki);
+  width: 100%;
+  height: 100%;
+  z-index: 6;
+}
+.div {
+  position: absolute;
+  width: calc(100% - 22px);
+  top: 20px;
+  left: 11px;
+  font-weight: 600;
+  display: inline-block;
+  height: 60.1px;
+  z-index: 7;
+}
+.ellipseGroup {
+  align-self: stretch;
+  height: 100px;
+  position: relative;
+}
+.ellipseDiv,
+.m {
+  position: absolute;
+}
+.ellipseDiv {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-khaki);
+  width: 100%;
+  height: 100%;
+  z-index: 6;
+}
+.m {
+  width: calc(100% - 22px);
+  top: 20px;
+  left: 11px;
+  font-weight: 600;
+  display: inline-block;
+  height: 60.1px;
+  z-index: 7;
+}
+.ellipseContainer {
+  align-self: stretch;
+  height: 100px;
+  position: relative;
+}
+.frameChild1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-khaki);
+  width: 100%;
+  height: 100%;
+  z-index: 6;
+}
+.div1 {
+  position: absolute;
+  width: calc(100% - 22px);
+  top: 20px;
+  left: 11px;
+  font-weight: 600;
+  display: inline-block;
+  height: 60.1px;
+  min-width: 78px;
+  z-index: 7;
+}
+.frameDiv {
+  align-self: stretch;
+  height: 100px;
+  position: relative;
+}
+.frameContainer {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.partners,
+.studentsTrained {
+  width: 369px;
+  display: inline-block;
+  max-width: 100%;
+}
+.hoursOfTraining,
+.outcomesAchieved,
+.partners,
+.studentsTrained {
+  position: relative;
+  line-height: 46px;
+  font-weight: 600;
+  z-index: 6;
+}
+.hoursOfTraining {
+  align-self: stretch;
+}
+.outcomesAchieved {
+  width: 406px;
+  display: inline-block;
+  max-width: 100%;
+}
+.statsLabels {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-59xl);
+  max-width: 100%;
+}
+.frameGroup,
+.overviewStatsContainer,
+.statsLabels,
+.statsLabelsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.statsLabelsWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 154px);
+}
+.frameGroup,
+.overviewStatsContainer {
+  max-width: 100%;
+}
+.frameGroup {
+  width: 628px;
+  flex-direction: row;
+  gap: var(--gap-35xl);
+  font-size: var(--font-size-27xl);
+}
+.overviewStatsContainer {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+  min-width: 419px;
+}
+.frameChild2,
+.rectangleIcon {
+  height: 7px;
+  width: 35px;
+  position: relative;
+  z-index: 10;
+}
+.frameChild2 {
+  width: 93px;
+}
+.overviewStatsContainerParent {
+  width: 808px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  margin-top: -37px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+}
+.frameParent,
+.impactAndBeliefsContainer,
+.overviewStatsContainerParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1040px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.impactAndBeliefsContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-271xl) var(--padding-100xl) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkgreen);
+  font-family: var(--font-crimson-text);
+}
+@media screen and (max-width: 1225px) {
+  .impactAndBeliefsContainer {
+    padding-right: var(--padding-126xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ourImpact {
+    font-size: var(--font-size-32xl);
+  }
+  .overview {
+    font-size: var(--font-size-10xl);
+  }
+  .div,
+  .div1,
+  .l,
+  .m {
+    font-size: var(--font-size-18xl);
+  }
+  .hoursOfTraining,
+  .outcomesAchieved,
+  .partners,
+  .studentsTrained {
+    font-size: var(--font-size-18xl);
+    line-height: 37px;
+  }
+  .statsLabels {
+    gap: var(--gap-20xl);
+  }
+  .frameGroup {
+    gap: var(--gap-8xl);
+  }
+  .overviewStatsContainer {
+    min-width: 100%;
+  }
+  .impactAndBeliefsContainer {
+    padding-right: var(--padding-53xl);
+    padding-bottom: var(--padding-58xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourImpact {
+    font-size: var(--font-size-19xl);
+  }
+  .overview {
+    font-size: var(--font-size-3xl);
+  }
+  .div,
+  .div1,
+  .l,
+  .m {
+    font-size: var(--font-size-9xl);
+  }
+  .frameContainer {
+    display: none;
+  }
+  .hoursOfTraining,
+  .outcomesAchieved,
+  .partners,
+  .studentsTrained {
+    font-size: var(--font-size-9xl);
+    line-height: 28px;
+  }
+  .statsLabelsWrapper {
+    max-width: 100%;
+  }
+  .impactAndBeliefsContainer {
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}

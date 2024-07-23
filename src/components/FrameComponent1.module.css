@@ -1,0 +1,100 @@
+.programDetails {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 3;
+}
+.detailsIconChild {
+  height: 7px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 3;
+}
+.detailsHeader,
+.detailsIcon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.detailsIcon {
+  width: 571px;
+  flex-direction: row;
+  padding: 0 var(--padding-8xl);
+  box-sizing: border-box;
+}
+.detailsHeader {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-11xs);
+}
+.outline {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.detailsHeaderParent,
+.outlineWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.outlineWrapper {
+  width: 558px;
+  flex-direction: row;
+  padding: 0 var(--padding-36xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+}
+.detailsHeaderParent {
+  width: 616px;
+  flex-direction: column;
+  gap: var(--gap-2xl);
+}
+.programsAndDetailsContainerInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-58xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkgreen);
+  font-family: var(--font-crimson-text);
+}
+@media screen and (max-width: 750px) {
+  .programDetails {
+    font-size: var(--font-size-32xl);
+  }
+  .outlineWrapper {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .programsAndDetailsContainerInner {
+    padding-left: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .programDetails {
+    font-size: var(--font-size-19xl);
+  }
+  .outline {
+    font-size: var(--font-size-3xl);
+  }
+}

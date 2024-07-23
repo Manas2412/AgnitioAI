@@ -1,0 +1,123 @@
+.programOverviewHeaderWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.trainingProgramOverview1 {
+  white-space: pre-wrap;
+}
+.trainingProgramOverview {
+  margin: 0;
+}
+.theCourseIs {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.blankLine {
+  margin: 0;
+}
+.courseObjectives1 {
+  font-family: var(--font-crimson-text);
+}
+.courseObjectives,
+.developStudentsProblemSolv,
+.introduceStudentsTo {
+  margin: 0;
+}
+.engageStudentsIn,
+.reinforceEssentialLearning {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.trainingProgramOverviewContainer {
+  align-self: stretch;
+  position: relative;
+  padding-right: var(--padding-8xl);
+  z-index: 1;
+}
+.programOverviewAndDetails,
+.programOverviewAndDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.programOverviewAndDetails {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+}
+.programOverviewAndDetailsWrapper {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-16xl);
+  box-sizing: border-box;
+  min-width: 584px;
+}
+.frameChild {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 139px;
+  background-color: var(--color-darkolivegreen);
+  width: 353px;
+  z-index: 1;
+}
+.frameItem {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  width: 405px;
+  height: 556px;
+  object-fit: cover;
+  z-index: 2;
+}
+.rectangleParent {
+  height: 695px;
+  width: 492px;
+  position: relative;
+  min-width: 492px;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+  font-family: var(--font-crimson-text);
+}
+@media screen and (max-width: 1225px) {
+  .rectangleParent {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .programOverviewAndDetailsWrapper,
+  .rectangleParent {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .trainingProgramOverviewContainer {
+    font-size: var(--font-size-2xl);
+  }
+  .programOverviewAndDetails {
+    gap: var(--gap-mid);
+  }
+}
