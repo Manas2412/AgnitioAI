@@ -9,8 +9,8 @@ const FrameComponent2 = ({ className = "" }) => {
         <div className={styles.programOverviewAndDetails}>
           <div className={styles.programOverviewHeaderWrapper}>
             <FrameComponent3
-              oURFOCUS="PROGRAMS"
-              eMERGINGTECHNOLOGIES=" GET TO KNOW US BETTER"
+              ourFocus="PROGRAMS"
+              emergingTechnologies=" GET TO KNOW US BETTER"
             />
           </div>
           <div className={styles.trainingProgramOverviewContainer}>

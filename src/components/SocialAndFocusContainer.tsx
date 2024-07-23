@@ -26,8 +26,8 @@ const SocialAndFocusContainer = ({ className = "" }) => {
         <div className={styles.focusAndTechnologies}>
           <div className={styles.frameParent}>
             <FrameComponent3
-              oURFOCUS="OUR FOCUS"
-              eMERGINGTECHNOLOGIES=" EMERGING TECHNOLOGIES"
+              ourFocus="OUR FOCUS"
+              emergingTechnologies=" EMERGING TECHNOLOGIES"
             />
             <div className={styles.educationalEmpowermentProviWrapper}>
               <div className={styles.educationalEmpowermentProviContainer}>
